@@ -138,7 +138,7 @@ You can run multi-GPU serving by passing in the argument
 .. code:: bash
 
    python -m vllm.entrypoints.api_server \
-       --model Qwen1.5-72B-Chat \
+       --model Qwen/Qwen1.5-72B-Chat \
        --tensor-parallel-size 4
 
 Serving Quantized Models
